@@ -1,0 +1,1129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav bar css  */
+
+.nav-bar {
+  display: flex;
+  padding: 20px;
+}
+
+.nav-collection {
+  width: 20%;
+  cursor: pointer;
+}
+
+.nav-head {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-head h4 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.gear-span {
+  padding: 0 2px;
+  height: 65%;
+}
+
+.nav-head img {
+  width: 100%;
+  height: 100%;
+}
+
+.in-touch {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+}
+
+.in-touch a {
+  color: #222222;
+  font-family: "Franklin Gothic ", "Arial Narrow", Arial, sans-serif;
+  font-size: 19px;
+}
+
+/* container-1 css  */
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.c-1-in {
+  width: 95%;
+}
+
+.c-1-bg {
+  background: url(/assets/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  /* width: 100%; */
+  /* background-position: 100% 30%; */
+}
+
+.c-1-head {
+  padding: 100px;
+  width: 70%;
+}
+
+.c-1-head h1 {
+  color: #ffff;
+  font-size: 90px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* team-section css */
+
+.team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team-container {
+  width: 70%;
+  padding: 100px;
+}
+
+.team-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.team-heading-content {
+  width: 50%;
+  text-align: justify;
+}
+
+.team-heading-content p {
+  color: #ec2232;
+  font-family: "Franklin Gothic ", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.team-heading-content h3 {
+  font-family: "Franklin Gothic ", "Arial Narrow", Arial, sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.free-space {
+  width: 50%;
+}
+
+.team-content {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.team-content-para {
+  width: 40%;
+}
+
+.team-content-para p {
+  font-family: "Franklin Gothic ", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+}
+
+.team-numbers {
+  display: flex;
+  justify-content: center;
+}
+
+.work-count {
+  width: 33%;
+}
+
+.work-count-gap {
+  border-left: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
+}
+
+.in-numbers {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+}
+
+.in-numbers span {
+  color: #ec2232;
+  margin-left: -15px;
+  font-weight: 300;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+}
+
+/* first choice section css  */
+
+.first-choice-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/assets/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.first-choice-bg-content {
+  width: 70%;
+  padding: 70px;
+}
+
+.first-choice-bg-content p {
+  color: #ec2232;
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.first-choice-bg-content h3 {
+  color: #222222;
+  font-family: "Franklin Gothic ", "Arial Narrow  ", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* card-container-css  */
+
+.card-wrap-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+.card-wrap {
+  width: 80%;
+  display: flex;
+  margin-top: -280px;
+  overflow: hidden;
+}
+
+.cards {
+  min-width: 38%;
+}
+
+.card-img {
+  width: 85%;
+  position: relative;
+}
+
+.card-img img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-content{
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+.card-icon{
+    width: 30%;
+}
+.card-title{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Franklin Gothic ", "Arial Narrow  ", Arial, sans-serif;
+    color:  #FEFEFE;
+    padding: 7px 0;
+    
+}
+.card-para{
+    font-family: "Franklin Gothic ", "Arial Narrow  ", Arial, sans-serif;
+    color:  #FEFEFE;
+    font-size: 15px;
+}
+
+
+
+
+
+/* approach-section  */
+
+.approach-section {
+  display: flex;
+  background-image: url(/assets/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  padding: 160px 150px;
+}
+
+.approach-container {
+  width: 60%;
+}
+
+.approach-icon {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.approach-content {
+  padding-left: 50px;
+}
+
+.approach-content-head {
+  width: 80%;
+  padding-bottom: 80px;
+}
+
+.approach-content-head h3 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #ffff;
+  padding: 20px 0;
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+}
+
+.approach-content-head p {
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+  color: #ffff;
+}
+
+.approach-content-icons {
+  display: flex;
+}
+
+.factory-card {
+  width: 33%;
+}
+
+.factory-card-img {
+  width: 40%;
+}
+
+.factory-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.factory-card-title {
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+  padding: 10px 0;
+}
+
+.factory-card-title div {
+  font-size: 15px;
+  margin-left: 120px;
+  margin-bottom: -10px;
+  color: #ffff;
+}
+
+.factory-card-title h5 {
+  color: #ffff;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.factory-card-sub-title {
+  color: #ffff;
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+  font-weight: 100;
+}
+
+/* //get-in-touch section css  */
+
+.contact-section {
+  display: flex;
+  padding: 70px 150px;
+  background-image: url(/assets/map-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container {
+  width: 50%;
+  padding-right: 10px;
+}
+
+.contact-head h3 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #222222;
+  font-family: "Franklin Gothic ", "Arial Narrow medium ", Arial, sans-serif;
+}
+
+.contact-location {
+  display: flex;
+  align-items: center;
+}
+
+.contact-location p {
+  font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+  font-size: 14px;
+  padding: 30px 15px;
+  width: 80%;
+}
+
+.contact-map {
+  height: 400px;
+  width: 500px;
+}
+
+.contact-map iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 0 0 12px rgb(137, 137, 137);
+}
+
+/* form css  */
+
+.contact-form {
+  width: 50%;
+  padding-left: 10px;
+  border-radius: 20px;
+  box-shadow: 0px -2px 50px rgba(0, 0, 0, 0.08);
+  background-color: #ffff;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 25px;
+  height: 100%;
+}
+
+.form-input {
+  border-bottom: 1px solid #cdcdcd;
+  width: 100%;
+}
+
+.form-input input {
+  width: 90%;
+  padding: 20px 10px;
+  border: none;
+  font-size: 15px;
+}
+
+.form-txt-area input {
+  padding-bottom: 80px;
+}
+
+.submit-btn {
+  border: none;
+  background: #ec2232;
+  color: #ffff;
+  border-radius: 40.2445px;
+  padding: 12px 40px;
+  width: 30%;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+/* footer css  */
+
+.end-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 140px;
+    background: #181818;
+
+}
+.footer-part{
+    width: 33%;
+    padding: 10px 20px;
+}
+.footer-part h4{
+    font-size: 28px;
+    font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 15px;
+    color: #ffff;
+    cursor: pointer;
+}
+.footer-part li, .footer-copyright p{
+    font-family: "Franklin Gothic ", "Arial Narrow ", Arial, sans-serif;
+    padding-bottom: 10px ;
+    color: #ffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+}
+.industry{
+    display: flex;
+    justify-content: space-between;
+}
+.industry-part{
+    padding: 10px;
+}
+.footer-copyright, .foot-icon{
+    text-align: right;
+}
+.foot-icon img{
+    padding: 20px 10px;
+    cursor: pointer;
+}
+
+
+/* 
+=======================================
+        QUERY FOR CARD CONTAINER
+=======================================
+*/
+
+/* 
+=======================================
+        QUERY FOR DESKTOP
+=======================================
+*/
+@media screen and (min-width: 1276px) and (max-width: 1365px) {
+    .contact-section{
+        padding: 70px 100px;
+    }
+}
+
+
+/* 
+=======================================
+        QUERY FOR TABLET
+=======================================
+*/
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 10px;
+        align-items: center;
+
+    }
+    .contact-container {
+        width: 90%;
+        padding: 0;
+    }
+    .contact-form{
+        width: 90%;
+    margin-top: 30px;
+    }
+    
+    .form-txt-area input {
+        padding-bottom: 30px;
+    }
+    .submit-btn{
+        width: 40%;
+        margin: 20px 0;
+    }
+    .contact-map {
+        height: 300px;
+        width: 500px;
+        margin: auto;
+    }
+    .contact-location p {
+        font-size: 14px;
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .end-footer {
+        padding: 20px 40px;
+        flex-direction: column;
+    }
+    .footer-part{
+        width: 80%;
+    }
+    .approach-content{
+        padding: 0;
+    }
+    .approach-section{
+        padding: 50px 20px;
+    }
+    .factory-card-sub-title{
+        font-size: 13px;
+    }
+    .factory-card-title h5 {
+        font-size: 23px;
+    }
+    .factory-card-title div {
+        margin-left: 94px;
+    }
+    .first-choice-bg-content {
+        width: 90%;
+        padding: 20px;
+    }
+    .first-choice-bg-content h3 { 
+        font-size: 38px;
+    }
+    .first-choice-bg {
+        min-height: 417px;
+    }
+    .card-wrap-container {
+        padding-bottom: 60px;
+    }
+    .card-wrap {
+        margin-top: -200px;
+    }
+    .team-container {
+        width: 100%;
+        padding: 30px;
+    }
+    .team-content {
+        padding-bottom: 30px;
+    }
+    .team-heading-content h3 {
+        font-size: 43px;
+    }
+    .in-numbers {
+        font-size: 50px;
+    }
+    .work-title {
+        font-size: 16px;
+    }
+    .c-1-head {
+        width: 100%;
+        padding: 40px;
+    }
+    .c-1-bg{
+        min-height: 400px;
+    }
+    .c-1-head h1{
+        font-size: 45px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    .contact-section{
+        justify-content: space-around;
+        padding: 40px 10px;
+
+    }
+    .contact-form{
+        width: 40%;
+    padding-left: 0;
+    }
+    .submit-btn{
+        width: 45%;
+    }
+    .contact-map {
+        height: 250px;
+        width: 300px;
+    }
+    .end-footer {
+        padding: 20px 40px;
+    }
+    .approach-section{
+        padding: 50px 20px;
+    }
+    .factory-card-sub-title{
+        font-size: 13px;
+    }
+    .factory-card-title h5 {
+        font-size: 23px;
+    }
+    .factory-card-title div {
+        margin-left: 94px;
+    }
+    .first-choice-bg-content {
+        width: 80%;
+        padding: 20px;
+    }
+    .card-wrap-container {
+        padding-bottom: 60px;
+    }
+    .card-wrap {
+        margin-top: -200px;
+    }
+    .team-container {
+        width: 100%;
+        padding: 60px;
+    }
+    .c-1-head {
+        width: 90%;
+    }
+    .c-1-bg{
+        min-height: 500px;
+    }
+    .c-1-head h1{
+        font-size: 45px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1095px) {
+    .contact-section{
+        justify-content: space-around;
+        padding: 40px 10px;
+
+    }
+    .contact-form{
+        width: 38%;
+    padding-left: 0;
+    }
+    .submit-btn{
+        width: 40%;
+    }
+    .contact-map {
+        height: 305px;
+        width: 426px;
+    }
+    .end-footer {
+        padding: 50px 90px;
+    }
+    .approach-section{
+        padding: 90px 50px;
+    }
+    .first-choice-bg-content {
+        width: 80%;
+        padding: 20px;
+    }
+    .team-container {
+        width: 100%;
+    }
+    .c-1-head {
+        width: 90%;
+    }
+    .c-1-bg{
+        min-height: 600px;
+    }
+    .c-1-head h1{
+        font-size: 65px;
+    }
+}
+@media screen and (min-width: 1095px) and (max-width: 1275px) {
+    .contact-section{
+        padding: 70px 30px;
+        justify-content: space-around;
+    }
+    .team-container {
+        width: 80%;
+        padding: 100px;
+    }
+    .c-1-head {
+        width: 80%;
+    }
+    .c-1-bg{
+        min-height: 600px;
+    }
+    .c-1-head h1{
+        font-size: 65px;
+    }
+}
+
+
+
+/* 
+=======================================
+        QUERY FOR MOBILE
+=======================================
+*/
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+     .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 10px;
+        align-items: center;
+
+    }
+    .contact-container {
+        width: 90%;
+        padding: 0;
+    }
+    .contact-form{
+        width: 90%;
+    margin-top: 30px;
+    padding: 0;
+    }
+    .contact-head h3{
+        font-size: 35px;
+    }
+    .contact-location p {
+        font-size: 11px;
+        padding: 20px 15px;
+        width: 100%;
+    }
+    
+    .contact-location img {
+        width: 6%;
+    }
+    .form-txt-area input {
+        padding-bottom: 30px;
+    }
+    .submit-btn{
+        width: 40%;
+        margin: 20px 0;
+    }
+    .contact-map {
+        height: 257px;
+        width: 370px;
+        margin: auto;
+    }
+  
+    .end-footer {
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .footer-part{
+        width: 80%;
+    }
+    .footer-part h4 {
+        font-size: 23px;
+    }
+    .footer-part li, .footer-copyright p {
+        font-size: 13px;
+    }
+    .approach-content{
+        padding: 0;
+    }
+    .approach-section{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .approach-container {
+        width: 100%;
+    }
+    .approach-icon {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .approach-content-head {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .approach-content-head h3{
+        font-size: 40px;
+    }
+    .approach-content-head p{
+        font-size: 13px;
+    }
+    .approach-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .approach-img img{
+        height: 60%;
+        width: 60%;
+    }
+    .factory-card{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .factory-card-sub-title{
+        font-size: 13px;
+    }
+    .factory-card-title h5 {
+        font-size: 23px;
+    }
+    .factory-card-title div {
+        margin-left: 100px;
+        margin-bottom: -12px;
+    }
+    .first-choice-bg-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .first-choice-bg-content h3 { 
+        font-size: 38px;
+    }
+    .first-choice-bg {
+        min-height: 417px;
+    }
+    .card-wrap-container {
+        padding-bottom: 60px;
+    }
+    .card-wrap {
+        margin-top: -200px;
+    }
+    .team-container {
+        width: 100%;
+        padding: 30px;
+    }
+    .team-content {
+        padding-bottom: 30px;
+    }
+    .team-heading-content{
+        width: 80%;
+    }
+    .team-heading-content p,.first-choice-bg-content p {
+        padding-bottom: 10px;
+    }
+    .free-space {
+        width: 0;
+    }
+    .team-content-para {
+        width: 80%;
+        padding-top: 20px;
+    }
+    .team-heading-content h3 {
+        font-size: 40px;
+    }
+    .in-numbers {
+        font-size: 50px;
+    }
+    .work-title {
+        font-size: 16px;
+    }
+    .c-1-head {
+        width: 100%;
+        padding: 40px;
+    }
+    .c-1-bg{
+        min-height: 300px;
+    }
+    .c-1-head h1{
+        font-size: 42px;
+    }
+    .nav-collection, .in-touch{
+        width: 25%;
+    }
+    .nav-head{
+        width: 50%;
+    }
+    .nav-bar {
+        padding: 15px;
+    }
+
+}
+@media screen and (max-width: 900px) and (min-width: 700px){
+    .card-title{
+        font-size: 18px;
+    }
+    .card-para{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 700px) and (min-width: 400px){
+    .card-title{
+        font-size: 13px;
+    }
+    .card-para{
+        font-size: 6px;
+    }
+    .card-content{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .card-title{
+        font-size: 10px;
+    }
+    .card-para{
+        font-size: 4px;
+    }
+    .card-content{
+        padding: 4px;
+    }
+    .contact-section{
+        flex-direction: column;
+        justify-content: center;
+        padding:  7px;
+        align-items: center;
+
+    }
+    .contact-container {
+        width: 90%;
+        padding: 0;
+    }
+    .contact-form{
+        width: 90%;
+    margin-top: 30px;
+    padding: 0;
+    }
+    .contact-form form {
+        padding: 0 10px;
+    }
+    .contact-head h3{
+        font-size: 30px;
+        padding: 7px; 
+    }
+    .contact-location p {
+        font-size: 11px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .contact-location img {
+        width: 6%;
+    }
+    .form-txt-area input {
+        padding-bottom: 30px;
+    }
+    .submit-btn{
+        width: 50%;
+        margin: 20px 0;
+    }
+    .contact-map {
+        height: 180px;
+        width: 273px;
+        margin: auto;
+    }
+  
+    .end-footer {
+        padding: 10px ;
+        flex-direction: column;
+    }
+    .footer-part{
+        width: 100%;
+    }
+    .footer-part h4 {
+        font-size: 19px;
+    }
+    .footer-part li, .footer-copyright p {
+        font-size: 11px;
+    }
+    .approach-content{
+        padding: 0;
+    }
+    .approach-section{
+        padding: 15px;
+        flex-direction: column;
+    }
+    .approach-container {
+        width: 100%;
+    }
+    .approach-icon {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .approach-content-head {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .approach-content-head h3{
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    .approach-content-head p{
+        font-size: 11px;
+    }
+    .approach-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .approach-img img{
+        height: 60%;
+        width: 60%;
+    }
+    .factory-card{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .factory-card-sub-title{
+        font-size: 13px;
+    }
+    .factory-card-title h5 {
+        font-size: 20px;
+    }
+    .factory-card-title div {
+        margin-left: 94px;
+        margin-bottom: -12px;
+    }
+    .first-choice-bg-content {
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .first-choice-bg-content h3 { 
+        font-size: 32px;
+    }
+    .first-choice-bg {
+        min-height: 350px;
+    }
+    .card-wrap-container {
+        padding-bottom: 25px;
+    }
+    .card-wrap {
+        margin-top: -200px;
+    }
+    .team-container {
+        width: 100%;
+        padding: 10px;
+    }
+    .team-content {
+        padding-bottom: 15px;
+    }
+    .team-heading-content{
+        width: 90%;
+    }
+    .team-heading-content p,.first-choice-bg-content p {
+        padding-bottom: 10px;
+        font-size: 11px;
+    }
+    .free-space {
+        width: 0;
+    }
+    .team-content-para {
+        width: 90%;
+        padding-top: 15px;
+    }
+    .team-heading-content h3 {
+        font-size: 32px;
+    }
+    .in-numbers {
+        font-size: 33px;
+    }
+    .in-numbers span{
+        margin-left: -8px;
+    }
+    .work-title {
+        font-size: 9px;
+    }
+    .c-1-head {
+        width: 100%;
+        padding: 20px;
+    }
+    .c-1-bg{
+        min-height: 200px;
+    }
+    .c-1-head h1{
+        font-size: 33px;
+    }
+    .nav-collection, .in-touch{
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+    .nav-head{
+        width: 50%;
+    }
+    .nav-head h4{
+        font-size: 17px;
+    }
+    .nav-bar {
+        padding: 10px 7px;
+    }
+    .gear-span {
+        height: 57%;
+    }
+    .in-touch a{
+        font-size: 11px;
+    }
+    .nav-collection img{
+        height: 40%;
+    }
+}
